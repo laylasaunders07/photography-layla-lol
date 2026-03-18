@@ -30,7 +30,7 @@
             enjoy the photos! its possible this might not stay very up to date as i famously take a long time 
             to choose and edit photos to send to people, unfortunately this website is no different!
         </p>
-        <div id="gallery">
+        <div class="gallery" id="gallery">
         {% assign photos = site.static_files 
             | where_exp:"file","file.path contains '/img/'" 
             | sort: "name" 
