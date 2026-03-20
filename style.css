@@ -20,18 +20,20 @@ main {
     margin-top: 10%;
 }
 
+/* gallery */
+
 .gallery {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* vertical spacing between images */
-    align-items: center; /* centers images horizontally */
+    gap: 20px;
+    align-items: center;
 }
 
 .gallery img.gallery {
     max-width: 100%;
-    width: 100%; /* responsive */
+    width: 100%;
     height: auto;
-    border-radius: 10px; /* rounded corners */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* subtle shadow */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     display: block;
 }
